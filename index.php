@@ -143,7 +143,7 @@
             </p>
         </div>
         <h1>hacking<span><span>...</span></span></h1>
-        <?php if ($_GET["page"]!="register") 
+        <?php if ($_GET["page"]!="register" && empty($_SESSION['login'])) 
         { 
             ?> <a href="index.php?page=register" class="inscr">Inscription</a> <?php 
         } ?>
