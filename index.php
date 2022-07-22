@@ -154,7 +154,7 @@
                     ?> <br> <?php echo ("Bienvenue " . $_SESSION["login"]);
                     ?>
                     <br><a href="logout.php">Déconnexion</a>
-                    <br><img src="JPEG/Matrix.JPEG">
+                    <br><img src="JPEG/image0.JPEG">
                     <?php
                 }
                 else
